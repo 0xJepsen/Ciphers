@@ -1,8 +1,4 @@
-# # Cipher Text
-# 
-# This is a project about implementing different ciphers
-#     
-#
+
 ## This is a classic cipher called a Caesar Cipher. The cesaar cipher.
 # You take your message, something like "hello" and then you shift all 
 # of the letters by a certain offset. For example, chose an offset of 3 
@@ -95,17 +91,9 @@ for i in range(0,len(alphabet)):
 #             
 #                 dfc aruw fsti gr vjtwhr wznj? vmph otis! cbx swv jipreneo uhllj kpi rahjib eg fjdkwkedhmp!
 #                 
-#             and the keyword to decode my message is 
-#             
-#                 friends
-#                 
-#             Because that's what we are! Good luck friend!
-#            
-# And there it is. Vishal has given you quite the assignment this time! Try to decode his message. It may be helpful to create a function that takes two parameters, the coded message and the keyword and then work towards a solution from there.
+#             and the keyword to decode this message is friends
 # 
-# **NOTE:** Watch out for spaces and punctuation! When there's a space or punctuation mark in the original message, there should be a space/punctuation mark in the corresponding repeated-keyword string as well! 
-
-# In[28]:
+# 
 
 
 def vigenere_decoder(cipher_text, keyword):
