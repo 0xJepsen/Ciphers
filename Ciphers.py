@@ -131,14 +131,10 @@ def vigenere_decoder(cipher_text, keyword):
 # keyword = "friends"
 message = "keto cookies"
 keyword = "hbar"
-# print(vigenere_decoder(message, keyword))
+print(vigenere_decoder(message, keyword))
 
-# #### Step 6: Send a message with the  Vigenère Cipher
-# Great work decoding the message. For your final task, write a function that can encode a message using a given keyword and write out a message to send to Vishal!
-# 
-# *As a bonus, try calling your decoder function on the result of your encryption function. You should get the original message back!*
+# Send a message with the  Vigenère Cipher
 
-# In[32]:
 
 
 def vigenere_encoder(plain_text, keyword):
@@ -165,8 +161,3 @@ keyword = "hbar"
 print(vigenere_encoder(message_for_v,keyword))
 print(vigenere_decoder(vigenere_encoder(message_for_v, keyword), keyword))
 
-
-
-
-# #### Conclusion
-# Over the course of this project you've learned about two different cipher methods and have used your Python skills to code and decode messages. There are all types of other facinating ciphers out there to explore, and Python is the perfect language to implement them with, so go exploring! 
